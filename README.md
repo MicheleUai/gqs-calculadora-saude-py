@@ -61,16 +61,27 @@ Após as correções:
 
 ```bash
 git clone https://github.com/MicheleUai/gqs-calculadora-saude-py.git
+```
 
-2. Entre na pasta do projeto
+### 2. Entre na pasta do projeto
+
+```bash
 cd gqs-calculadora-saude-py
+```
 
-3. Execute o programa
+### 3. Execute o programa
+
+```bash
 python calculadora_saude.py
+```
 
-🖥️ Menu do Sistema
+---
+
+## 🖥️ Menu do Sistema
 
 Ao executar o programa, será exibido:
+
+```text
 ==============================
   SISTEMA DE SAÚDE E BEM-ESTAR
 ==============================
@@ -78,31 +89,40 @@ Ao executar o programa, será exibido:
 2. Calcular Recomendação de Água
 3. Calcular Frequência Cardíaca Máxima
 4. Sair
+```
 
 Digite o número da opção desejada e siga as instruções exibidas no terminal.
 
-🛠️ Tecnologias Utilizadas
-🐍 Python
-🌿 Git
-🐙 GitHub
-📝 Markdown
-💻 Visual Studio Code
-📚 Objetivo Acadêmico
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- 🐍 Python
+- 🌿 Git
+- 🐙 GitHub
+- 📝 Markdown
+- 💻 Visual Studio Code
+
+---
+
+## 📚 Objetivo Acadêmico
 
 Atividade desenvolvida com foco em:
 
-identificação de bugs;
-correção de erros de lógica;
-análise de fluxo de execução;
-documentação técnica;
-boas práticas de versionamento com Git e GitHub.
+- identificação de bugs;
+- correção de erros de lógica;
+- análise de fluxo de execução;
+- documentação técnica;
+- boas práticas de versionamento com Git e GitHub.
 
-👩‍💻 Autores
+---
 
-Michele Carvalho
-Isaque Guimaraes
+## 👩‍💻 Autores
+
+- Michele Carvalho
+- Isaque Guimaraes
+
 Projeto desenvolvido para atividade acadêmica de análise e correção de bugs em Python.
-
 
 
 
