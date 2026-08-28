@@ -2,7 +2,7 @@
 
 def calcular_imc(peso, altura):
     # Bug 1: Multiplicação em vez de potenciação no cálculo do IMC
-    imc = peso / (altura * 2)
+    imc = peso / (altura ** 2)
     return imc
 
 def classificar_imc(imc):
@@ -18,12 +18,12 @@ def classificar_imc(imc):
 
 def calcular_agua_diaria(peso):
     # Bug 3: Fórmula dividindo o peso em vez de multiplicar por 35ml
-    litros = (peso / 35)
+    litros = (peso * 35) / 1000
     return litros
 
 def calcular_frequencia_cardiaca_maxima(idade):
     # Bug 4: Somando a idade em vez de subtrair de 220
-    fc_max = 220 + idade
+    fc_max = 220 - idade
     return fc_max
 
 def menu():
@@ -36,7 +36,7 @@ def menu():
     print("4. Sair")
     
     # Bug 5: input() retorna string, mas o código não trata a conversão no menu
-    opcao = input("Escolha uma opção (1-4): ")
+    opcao = int(input("Escolha uma opção (1-4): "))
     return opcao
 
 def main():
@@ -65,7 +65,9 @@ def main():
             print("Encerrando o sistema...")
             # Bug 7: Ausência do break para sair do loop infinito
             print("Obrigado por usar nosso sistema!")
-            
+            break
+
+
         else:
             print("Opção inválida! Tente novamente.")
 
